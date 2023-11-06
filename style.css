@@ -107,13 +107,20 @@ li{
     footer .col-6{
         width: 100%;
     }
+    flex1{
+        flex-direction: column;
+    }
+    }
 
-  }
+  
 
   @media only screen and (max-width: 600px) {
 
     .best-deals img{
         width: 100%;
+    }
+    .flex1{
+        flex-direction: column;
     }
     
 
